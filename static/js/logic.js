@@ -1,5 +1,5 @@
 var URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
-var mapboxKey = "pk.eyJ1IjoibW1jbGF1Z2hsaW44NyIsImEiOiJjamRoank1NjQwd2R1MzNybGppOG9kZTdsIn0.2JTZIjgBlzTvfKjs7Rw_Dg"
+var mapboxKey = "pk.eyJ1IjoiYWluZHJpbGFjaGF0dGVyamVlIiwiYSI6ImNraDg3cTBwYzBwZngycm84ajJmYTFnbjIifQ.8UL_XsGtuyErNiud1-42-g"
 var mapboxURL = "https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?"
 
 d3.json(URL, function (data) {
